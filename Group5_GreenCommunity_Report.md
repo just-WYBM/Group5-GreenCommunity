@@ -32,42 +32,39 @@
   - [Green@Community Recycling Network Overall Effectiveness Analysis](#greencommunity-recycling-network-overall-effectiveness-analysis)
     - [Group 5](#group-5)
   - [Table of Contents](#table-of-contents)
-  - [Introduction](#introduction)
-  - [Background](#background)
-    - [Policy Context](#policy-context)
-    - [The Current State of Data Governance](#the-current-state-of-data-governance)
-      - [The "Passive Disclosure" Paradox](#the-passive-disclosure-paradox)
-      - [The Personal Data Contradiction](#the-personal-data-contradiction)
-      - [The "Population Coverage" Black Box](#the-population-coverage-black-box)
-  - [Data Analysis](#data-analysis)
-    - [Methodology and Data Sources -- Secondary Data](#methodology-and-data-sources----secondary-data)
-    - [Methodology and Data Sources -- Primary Data: Online Survey](#methodology-and-data-sources----primary-data-online-survey)
-    - [Finding 1: A High-Cost Program with Low City-Wide Impact](#finding-1-a-high-cost-program-with-low-city-wide-impact)
-    - [Finding 2: A Strategy of Diminishing Returns](#finding-2-a-strategy-of-diminishing-returns)
-    - [Finding 3: A Fundamental Failure of Motivation](#finding-3-a-fundamental-failure-of-motivation)
-    - [Finding 4: Public Perception vs. Data-Driven Reality](#finding-4-public-perception-vs-data-driven-reality)
-  - [Community Engagement](#community-engagement)
-  - [Recommendations](#recommendations)
+  - [1. Introduction](#1-introduction)
+  - [2. Background](#2-background)
+    - [2.1. Policy Context](#21-policy-context)
+    - [2.2. The Current State of Data Governance](#22-the-current-state-of-data-governance)
+      - [2.2.1. The "Passive Disclosure" Paradox](#221-the-passive-disclosure-paradox)
+      - [2.2.2. The Personal Data Contradiction](#222-the-personal-data-contradiction)
+      - [2.2.3. The "Population Coverage" Black Box](#223-the-population-coverage-black-box)
+  - [3. Data Analysis](#3-data-analysis)
+    - [3.1. Methodology and Data Sources -- Secondary Data](#31-methodology-and-data-sources----secondary-data)
+    - [3.2. Methodology and Data Sources -- Primary Data: Online Survey](#32-methodology-and-data-sources----primary-data-online-survey)
+    - [3.3. Finding 1: A High-Cost Program with Low City-Wide Impact](#33-finding-1-a-high-cost-program-with-low-city-wide-impact)
+    - [3.4. Finding 2: A Strategy of Diminishing Returns](#34-finding-2-a-strategy-of-diminishing-returns)
+    - [3.5. Finding 3: A Fundamental Failure of Motivation](#35-finding-3-a-fundamental-failure-of-motivation)
+    - [3.6. Finding 4: Public Perception vs. Data-Driven Reality](#36-finding-4-public-perception-vs-data-driven-reality)
+  - [4. Community Engagement](#4-community-engagement)
+  - [5. Recommendations](#5-recommendations)
     - [5.1 Shift from Inefficient Blind Expansion to Strategic Utilization of Available Resources](#51-shift-from-inefficient-blind-expansion-to-strategic-utilization-of-available-resources)
     - [5.2 Reform the Incentive System to Increase Participation](#52-reform-the-incentive-system-to-increase-participation)
     - [5.3 Implement Open Data Governance to Enhance Accountability](#53-implement-open-data-governance-to-enhance-accountability)
-  - [Conclusion](#conclusion)
-    - [Summary of Findings](#summary-of-findings)
-    - [Limitations \& Future Work](#limitations--future-work)
-    - [Reflection on Data Governance](#reflection-on-data-governance)
-  - [References](#references)
-  - [Credit Statement](#credit-statement)
+  - [6. Conclusion](#6-conclusion)
+    - [6.1. Summary of Findings](#61-summary-of-findings)
+    - [6.2. Limitations \& Future Work](#62-limitations--future-work)
+    - [6.3. Reflection on Data Governance](#63-reflection-on-data-governance)
+  - [7. References](#7-references)
+  - [8. Credit Statement](#8-credit-statement)
     - [Group 5 Project Contributions](#group-5-project-contributions)
-  - [Appendix](#appendix)
-    - [Poster with comment permission enabled](#poster-with-comment-permission-enabled)
-    - [Formal Data Request Email sent to the EPD](#formal-data-request-email-sent-to-the-epd)
-      - [Purpose and Use](#purpose-and-use)
-      - [Data we would like to request:](#data-we-would-like-to-request)
-      - [Format and Documentation:](#format-and-documentation)
+  - [9. Appendix](#9-appendix)
+    - [9.1. Poster with comment permission enabled](#91-poster-with-comment-permission-enabled)
+    - [9.2. Formal Data Request Email sent to the EPD](#92-formal-data-request-email-sent-to-the-epd)
 
 ---
 
-## Introduction
+## 1. Introduction
 
 Hong Kong is facing a critical waste management crisis. For decades, our landfills have been nearing capacity, a clear signal that landfilling is not a sustainable long-term solution. This makes the transition to a circular economy not just an environmental ideal, but a civic necessity for our city.
 
@@ -84,9 +81,9 @@ By answering these questions, this report provides policymakers with a clear ass
 
 ---
 
-## Background
+## 2. Background
 
-### Policy Context
+### 2.1. Policy Context
 
 For many years, Hong Kong's recycling efforts relied on the roadside three-colour bins. However, these were plagued by high contamination rates and low public trust, often ridiculed by citizens as "trash bins in disguise." The "Waste Blueprint for 2035" aimed to change this perception by creating a professionally managed, clean recycling system.
 
@@ -94,33 +91,33 @@ The Green@Community (G@C) network, launched in 2015 and managed by the Environme
 
 To further encourage participation, the G@C network is supported by the GREEN$ Participation Incentive Scheme (PIS). Launched with a Smart Card in 2020 and a mobile app in 2022, the scheme rewards citizens with points for recycling, which can be redeemed for gifts. The underlying strategy has been to combine convenient infrastructure with a rewarding incentive to motivate more citizens to recycle.
 
-### The Current State of Data Governance
+### 2.2. The Current State of Data Governance
 
 While the G@C's physical infrastructure has been modernized, the data infrastructure that supports it remains archaic. Our research found that the program's data governance is characterized by fragmentation, opacity, and a "passive disclosure" model. This lack of transparency prevents public accountability and hinders effective, data-driven decision-making.
 
-#### The "Passive Disclosure" Paradox
+#### 2.2.1. The "Passive Disclosure" Paradox
 
 Hong Kong has a dedicated open data platform, data.gov.hk, which is meant to centralize government data for public access and transparent governance. Ideally, all operational data for a major public program like G@C should be available there in machine-readable formats.
 
 However, we found that critical data—such as operating costs, gift procurement fees, and specific recycling volumes—was absent from the platform. Instead, these data points are buried within complex, text-heavy PDF documents from the Legislative Council's "Examination of Estimates of Expenditure." This creates a system of "passive disclosure," where data is only made public if a lawmaker happens to ask the right question during the annual budget review. For example, we could not find the cost of GREEN$ reward gifts for the 2023-24 fiscal year, likely because no one asked for it. This ad-hoc approach creates arbitrary data gaps, making it nearly impossible for the public to track the program's performance over time.
 
-#### The Personal Data Contradiction
+#### 2.2.2. The Personal Data Contradiction
 
 We encountered a disturbing contradiction regarding the collection of user demographics. The GREEN$ mobile app's "Personal Information Collection Statement" explicitly states that personal data is collected for statistical purposes, and our own test registration confirmed that the app prompts users for their gender, birthday, occupation, and district.
 
 Yet, when we sent a formal email to the EPD requesting an anonymized summary of this demographic data, their official reply stated they "had never collected personal information for any purpose." This response points to a significant failure in data governance. Either the government is collecting sensitive citizen data but managing it so poorly that relevant departments are unaware, or it is not using the data it collects for its stated purpose of analysis. Both scenarios are unacceptable.
 
-#### The "Population Coverage" Black Box
+#### 2.2.3. The "Population Coverage" Black Box
 
 The government frequently claims that the G@C network covers a high percentage of the population, citing this as a key success metric. However, the methodology behind this calculation is a complete "black box." In 2018, the Audit Commission questioned the credibility of this claim and recommended that the EPD disclose its formula. Years later, our research found that the definition of "coverage" remains unpublished. Without a transparent definition, this metric is unverifiable and scientifically meaningless for policy evaluation.
 
 ---
 
-## Data Analysis
+## 3. Data Analysis
 
 To evaluate the G@C program, we used a mixed-methods approach. We analyzed the "hard" numbers of costs and tonnage from government sources, and we explored the "soft" factors of public attitudes and behaviors through our own online survey.
 
-### Methodology and Data Sources -- Secondary Data
+### 3.1. Methodology and Data Sources -- Secondary Data
 Due to the data governance issues outlined in Section 2, our team constructed a dataset by manually synthesizing information from disparate government reports. The specific secondary data variables analyzed include:
 
 From data.gov.hk and C&SD:
@@ -138,7 +135,7 @@ From LegCo document “Replies to written questions raised by LegCo Members in e
 Calculated by with Excel formula:
 - G@C's percentage contribution to overall HK MSW recycled
 
-### Methodology and Data Sources -- Primary Data: Online Survey
+### 3.2. Methodology and Data Sources -- Primary Data: Online Survey
 To understand why the physical expansion is yielding diminishing returns, we needed to understand the user. Since the government claimed not to have demographic data, we conducted our own primary research to understand citizens' recycling habits, awareness and attitude towards G@C.
 
 Survey Design:
@@ -150,7 +147,7 @@ Survey Design:
 
 ![Survey demographics part 2](./survey_demographics_pt2.jpg)
 
-### Finding 1: A High-Cost Program with Low City-Wide Impact
+### 3.3. Finding 1: A High-Cost Program with Low City-Wide Impact
 
 Our first step was to analyze the relationship between the government's investment and the program's actual impact. The data tells a story of explosive spending with minimal results.
 
@@ -168,7 +165,7 @@ However, this huge investment has failed to move the needle on Hong Kong's overa
 
 ![G@C Operating Cost per Volume](./GC_operating_cost_per_volume.jpg)
 
-### Finding 2: A Strategy of Diminishing Returns
+### 3.4. Finding 2: A Strategy of Diminishing Returns
 
 We then looked closer at the G@C program's own performance. Our analysis revealed a clear plateau effect, confirming a strategy of diminishing returns. In the program's early years, adding a new station brought a significant jump in recycling volume as it captured the "low-hanging fruit" of eager recyclers.
 
@@ -176,7 +173,7 @@ However, recent data shows this is no longer the case. In 2024, the EPD expanded
 
 ![Aggregate No. of G@C Collection Points & G@C Recycled Volume](./point_num_vs_volume.jpg)
 
-### Finding 3: A Fundamental Failure of Motivation
+### 3.5. Finding 3: A Fundamental Failure of Motivation
 
 To understand why a convenient network was not being used, we conducted an online survey of 128 citizens. The results clearly diagnose the core problem: a failure of motivation.
 
@@ -233,7 +230,7 @@ And the most important point is that, even though they knew what to recycle, ove
 So, we find that knowing is not enough. People can know what to do, but if there is no strong reason to act, that knowledge cannot transform into action.
 
 
-### Finding 4: Public Perception vs. Data-Driven Reality
+### 3.6. Finding 4: Public Perception vs. Data-Driven Reality
 
 To confirm our conclusion, we conducted an experiment in our survey. First, we asked people for their opinion of G@C's effectiveness, and the initial response was generally positive. Then, we showed them the real data: the high costs, the low recycling volume, and the tiny 1% city-wide impact.
 
@@ -245,7 +242,7 @@ After seeing the data, their opinions flipped. Almost half of the respondents lo
 
 ---
 
-## Community Engagement
+## 4. Community Engagement
 
 Our project was not just about analyzing data; it was about engaging with the community and using modern tools to uncover the truth.
 
@@ -261,7 +258,7 @@ To manage the complexity of our analysis, we integrated AI tools responsibly. We
 
 ---
 
-## Recommendations
+## 5. Recommendations
 
 An action plan targeting the Hong Kong Government, Environmental Protection Department, Legislative Council, and other stakeholders is offered based on the quantitative analysis, results of the survey, and following SDG 11.6 which targets the reduction of environmental impact of cities. These are solutions to the G@C program core challenges of diminishing returns, ineffective incentives, and a lack of appropriate data governance using empirical data to improve the cost-effectiveness, participation, and accountability without adding to the overall fiscal input.
 
@@ -281,13 +278,13 @@ The implementation can be divided into three waves: within three months, urgent 
 
 ---
 
-## Conclusion
+## 6. Conclusion
 
-### Summary of Findings
+### 6.1. Summary of Findings
 
 The Green@Community program has reached a point of diminishing returns. Despite exponential spending (projected >HK$475 million), Hong Kong's recycling rate remains stagnant. Our analysis confirms that the strategy of "blind expansion" is no longer cost-effective. The core failures are strategic (incentives are too weak to overcome the opportunity cost for non-users) and governance-related (opaque data prevents optimization).
 
-### Limitations & Future Work
+### 6.2. Limitations & Future Work
 
 Our study was limited by a small, youth-skewed sample (n=128) and significant gaps in government data due to "passive disclosure." Future research should prioritize:
 
@@ -295,13 +292,13 @@ Our study was limited by a small, youth-skewed sample (n=128) and significant ga
 - **A/B Testing:** Piloting different incentive structures (e.g., e-coupons vs. staples) to find the most cost-efficient motivator.
 - **Longitudinal Tracking:** Monitoring the "cost-per-tonne" efficiency over a 3-year period.
 
-### Reflection on Data Governance
+### 6.3. Reflection on Data Governance
 
 This research highlights that accessibility equates to accountability. Although the government collects data, burying it in PDF reports rather than hosting it on open platforms like data.gov.hk renders it useless for public oversight. To achieve the "Smart City" vision, the government must pivot from "passive disclosure" to radical transparency. We learned that without accessible data, policy becomes a black box; with it, it becomes a community-driven tool for improvement.
 
 ---
 
-## References
+## 7. References
 
 Audit Commission. (2020). Report No. 74 of the Director of Audit, Chapter 8: Management of municipal solid waste. https://www.aud.gov.hk/pdf_ca/c74ch08.pdf
 
@@ -407,7 +404,7 @@ Yahoo News. (2024). [Green@Community "GREEN$" points devaluation: System change 
 
 ---
 
-## Credit Statement
+## 8. Credit Statement
 
 ### Group 5 Project Contributions
 
@@ -444,14 +441,12 @@ Yahoo News. (2024). [Green@Community "GREEN$" points devaluation: System change 
 
 ---
 
-## Appendix
+## 9. Appendix
 
-### Poster with comment permission enabled
-https://www.canva.com/design/DAG6jyGRbbY/k5rsEMueOPrm1Hqa0SbfIQ/edit?utm_content=DAG6jyGRbbY&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
+### 9.1. Poster with comment permission enabled
+https://www.canva.com/design/DAG6jyGRbbY/Zn5tpOfQBUxDAgpYg5OmBA/view
 
-### Formal Data Request Email sent to the EPD
-
----
+### 9.2. Formal Data Request Email sent to the EPD
 
 Dear Access to Information Officer of the Environmental Protection Department,
 
@@ -461,11 +456,11 @@ I am an undergraduate at Hong Kong Baptist University taking a course GCAP3226: 
 
 To support our analysis, we request statistical summaries or datasets for the same most recent 3 full calendar years (e.g., "1 Jan 2022 to 31 Dec 2024"). If data for 3 years is unavailable, just the latest 1 or 2 years would be appreciated. If that period is unavailable, the closest available period or partial datasets/statistical summaries (e.g., different ranges, quarterly/monthly series, or earlier years) would be appreciated.
 
-#### Purpose and Use
+**Purpose and Use**
 
 Data will be used only for this course project; findings shared in class, a final report, and a briefing to a current Legislative Council member. We will acknowledge EPD and follow any conditions.
 
-#### Data we would like to request:
+**Data we would like to request:**
 
 **1. GREEN$ mobile app (GREEN$ ePIS)**
 
@@ -530,7 +525,7 @@ Data will be used only for this course project; findings shared in class, a fina
 - Staffing counts in total AND by function AND by employment type
 - Unit-cost indicators (e.g., operating cost per recycled weight in terms of tonne)
 
-#### Format and Documentation:
+**Format and Documentation:**
 
 - Preferred: CSV/Excel/Open API (PDFs acceptable)
 - Including brief definitions/notes would be good (e.g., material categories, fiscal vs. calendar year)
@@ -540,16 +535,13 @@ Please let us know if there are application forms, non-disclosure requirements, 
 
 Thank you for your time and assistance.
 
----
-
 Yours faithfully,
 
-**MAN Wai Yin**
-HKID No.: Y978660(9)
+MAN Wai Yin
 Undergraduate Student, Hong Kong Baptist University
 Email: 24202509@life.hkbu.edu.hk
 
-Group Members: CHAN Chi Ki, CHEUNG Kwun Ho, HO Chun Chit, MAN Wai Yin, TANG Tsz Tung
+Group Members: CHAN Chi Ki, CHEUNG Kwun Ho, HO Chun Chit, MAN Wai Yin, TANG Tsz Tung, Xu Jingyi
 Course Instructors: Dr. Simon WANG (simonwang@hkbu.edu.hk) and Dr. Talia WU (taliawu17@hkbu.edu.hk)
 
 ---
