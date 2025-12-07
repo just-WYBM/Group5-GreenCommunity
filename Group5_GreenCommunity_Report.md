@@ -61,7 +61,7 @@
   - [8. Credit Statement](#8-credit-statement)
     - [Group 5 Project Contributions](#group-5-project-contributions)
   - [9. Appendix](#9-appendix)
-    - [9.1. Poster with comment permission enabled](#91-poster-with-comment-permission-enabled)
+    - [9.1. Poster (Embed Link)](#91-poster-embed-link)
     - [9.2. Formal Data Request Email sent to the EPD](#92-formal-data-request-email-sent-to-the-epd)
 
 ---
@@ -449,7 +449,7 @@ Yahoo News. (2024). [Green@Community "GREEN$" points devaluation: System change 
 
 ## 9. Appendix
 
-### 9.1. Poster with comment permission enabled
+### 9.1. Poster (Embed Link)
 https://www.canva.com/design/DAG6jyGRbbY/Zn5tpOfQBUxDAgpYg5OmBA/view
 
 ### 9.2. Formal Data Request Email sent to the EPD
