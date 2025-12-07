@@ -544,7 +544,9 @@ Thank you for your time and assistance.
 Yours faithfully,
 
 MAN Wai Yin
+
 Undergraduate Student, Hong Kong Baptist University
+
 Email: 24202509@life.hkbu.edu.hk
 
 Group Members: CHAN Chi Ki, CHEUNG Kwun Ho, HO Chun Chit, MAN Wai Yin, TANG Tsz Tung, Xu Jingyi
