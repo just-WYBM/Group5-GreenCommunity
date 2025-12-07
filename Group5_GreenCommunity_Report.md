@@ -25,24 +25,45 @@
 
 ## Table of Contents
 
-1. [Introduction](#introduction)
-2. [Background](#background)
-   - [Policy Context](#policy-context)
-   - [The Current State of Data Governance](#the-current-state-of-data-governance)
-3. [Data Analysis](#data-analysis)
-   - [Finding 1: A High-Cost Program with Low City-Wide Impact](#finding-1-a-high-cost-program-with-low-city-wide-impact)
-   - [Finding 2: A Strategy of Diminishing Returns](#finding-2-a-strategy-of-diminishing-returns)
-   - [Finding 3: A Fundamental Failure of Motivation](#finding-3-a-fundamental-failure-of-motivation)
-   - [Finding 4: Public Perception vs. Data-Driven Reality](#finding-4-public-perception-vs-data-driven-reality)
-4. [Community Engagement](#community-engagement)
-5. [Recommendations](#recommendations)
-   - [5.1 Shift from Inefficient Blind Expansion to Strategic Utilization of Available Resources](#51-shift-from-inefficient-blind-expansion-to-strategic-utilization-of-available-resources)
-   - [5.2 Reform the Incentive System to Increase Participation](#52-reform-the-incentive-system-to-increase-participation)
-   - [5.3 Implement Open Data Governance to Enhance Accountability](#53-implement-open-data-governance-to-enhance-accountability)
-6. [Conclusion](#conclusion)
-7. [References](#references)
-8. [Credit Statement](#credit-statement)
-9. [Appendix](#appendix)
+- [Hong Kong Baptist University](#hong-kong-baptist-university)
+  - [Department of Mathematics](#department-of-mathematics)
+    - [GCAP3226 – Empowering Citizens through Data: Participatory Policy Analysis for Hong Kong](#gcap3226--empowering-citizens-through-data-participatory-policy-analysis-for-hong-kong)
+- [Group Project Report](#group-project-report)
+  - [Green@Community Recycling Network Overall Effectiveness Analysis](#greencommunity-recycling-network-overall-effectiveness-analysis)
+    - [Group 5](#group-5)
+  - [Table of Contents](#table-of-contents)
+  - [Introduction](#introduction)
+  - [Background](#background)
+    - [Policy Context](#policy-context)
+    - [The Current State of Data Governance](#the-current-state-of-data-governance)
+      - [The "Passive Disclosure" Paradox](#the-passive-disclosure-paradox)
+      - [The Personal Data Contradiction](#the-personal-data-contradiction)
+      - [The "Population Coverage" Black Box](#the-population-coverage-black-box)
+  - [Data Analysis](#data-analysis)
+    - [Methodology and Data Sources -- Secondary Data](#methodology-and-data-sources----secondary-data)
+    - [Methodology and Data Sources -- Primary Data: Online Survey](#methodology-and-data-sources----primary-data-online-survey)
+    - [Finding 1: A High-Cost Program with Low City-Wide Impact](#finding-1-a-high-cost-program-with-low-city-wide-impact)
+    - [Finding 2: A Strategy of Diminishing Returns](#finding-2-a-strategy-of-diminishing-returns)
+    - [Finding 3: A Fundamental Failure of Motivation](#finding-3-a-fundamental-failure-of-motivation)
+    - [Finding 4: Public Perception vs. Data-Driven Reality](#finding-4-public-perception-vs-data-driven-reality)
+  - [Community Engagement](#community-engagement)
+  - [Recommendations](#recommendations)
+    - [5.1 Shift from Inefficient Blind Expansion to Strategic Utilization of Available Resources](#51-shift-from-inefficient-blind-expansion-to-strategic-utilization-of-available-resources)
+    - [5.2 Reform the Incentive System to Increase Participation](#52-reform-the-incentive-system-to-increase-participation)
+    - [5.3 Implement Open Data Governance to Enhance Accountability](#53-implement-open-data-governance-to-enhance-accountability)
+  - [Conclusion](#conclusion)
+    - [Summary of Findings](#summary-of-findings)
+    - [Limitations \& Future Work](#limitations--future-work)
+    - [Reflection on Data Governance](#reflection-on-data-governance)
+  - [References](#references)
+  - [Credit Statement](#credit-statement)
+    - [Group 5 Project Contributions](#group-5-project-contributions)
+  - [Appendix](#appendix)
+    - [Poster with comment permission enabled](#poster-with-comment-permission-enabled)
+    - [Formal Data Request Email sent to the EPD](#formal-data-request-email-sent-to-the-epd)
+      - [Purpose and Use](#purpose-and-use)
+      - [Data we would like to request:](#data-we-would-like-to-request)
+      - [Format and Documentation:](#format-and-documentation)
 
 ---
 
@@ -99,15 +120,53 @@ The government frequently claims that the G@C network covers a high percentage o
 
 To evaluate the G@C program, we used a mixed-methods approach. We analyzed the "hard" numbers of costs and tonnage from government sources, and we explored the "soft" factors of public attitudes and behaviors through our own online survey.
 
+### Methodology and Data Sources -- Secondary Data
+Due to the data governance issues outlined in Section 2, our team constructed a dataset by manually synthesizing information from disparate government reports. The specific secondary data variables analyzed include:
+
+From data.gov.hk and C&SD:
+- Annual MSW generated per capita
+- Annual MSW recycled & disposal volume
+
+From gov’s official Hong Kong Waste Reduction Website:
+- G@C Recycling Volume
+
+From LegCo document “Replies to written questions raised by LegCo Members in examining the Estimates of Expenditure”:
+- Annual G@C Total Operating Cost
+- Aggregate Number of G@C Collection Points
+- Annual GREEN$ reward gift procurement cost (with noted gaps for 2023-24)
+
+Calculated by with Excel formula:
+- G@C's percentage contribution to overall HK MSW recycled
+
+### Methodology and Data Sources -- Primary Data: Online Survey
+To understand why the physical expansion is yielding diminishing returns, we needed to understand the user. Since the government claimed not to have demographic data, we conducted our own primary research to understand citizens' recycling habits, awareness and attitude towards G@C.
+
+Survey Design:
+- Sample Size: n=128 citizens.
+- Method: Online survey using convenience and snowball sampling.
+- Demographics: Although respondents mainly are the younger age group, we made a conscious effort to distribute the survey widely to ensure a mix of gender, ages, housing types, and employment statuses to reduce data biases.
+
+![Survey demographics part 1](./survey_demographics_pt1.jpg)
+
+![Survey demographics part 2](./survey_demographics_pt2.jpg)
+
 ### Finding 1: A High-Cost Program with Low City-Wide Impact
 
 Our first step was to analyze the relationship between the government's investment and the program's actual impact. The data tells a story of explosive spending with minimal results.
 
 The operating cost of the G@C network has grown exponentially, from less than HK$6 million in its early years to a projected HK$475 million for the 2024-25 fiscal year. This massive spending was driven by the government's strategy of rapid physical expansion, which focused on increasing the number of collection points across the city.
 
-![Aggregate No. of G@C Collection Points & G@C Operating Cost](./gac_cost_analysis.png)
+![Aggregate No. of G@C Collection Points & G@C Operating Cost](./gac_input_analysis.jpg)
 
 However, this huge investment has failed to move the needle on Hong Kong's overall recycling performance. The city's MSW recycling rate has remained stuck between 29% and 36% for nearly a decade, far from the 55% target. The most shocking finding is that the entire G@C network, despite its high visibility and cost, contributes only 1% of Hong Kong's total recycled MSW. For a flagship program, this impact is unacceptable, especially when the cost to recycle 1 tonne of waste through G@C remains over HK$10,000.
+
+![HK Total MSW Generated](./total_MSW_generated.jpg)
+
+![HK Overall Recycling Rate & G@C Recycling Volume](./overall_rate_GC_volume_analysis.jpg)
+
+![HK Total Recycled vs G@C Recycling Volume](./total_MSW_GC_volume.jpg)
+
+![G@C Operating Cost per Volume](./GC_operating_cost_per_volume.jpg)
 
 ### Finding 2: A Strategy of Diminishing Returns
 
@@ -115,25 +174,74 @@ We then looked closer at the G@C program's own performance. Our analysis reveale
 
 However, recent data shows this is no longer the case. In 2024, the EPD expanded the network by a massive 260%, but recycling volume only increased by 55%. While funding and the number of facilities continue to climb, the growth rate of recycling volume is slowing down. We have reached a saturation point where the benefit of adding another recycling store is far less than it used to be. This confirms that the program's bottleneck is no longer a lack of convenience, but a lack of motivation.
 
+![Aggregate No. of G@C Collection Points & G@C Recycled Volume](./point_num_vs_volume.jpg)
+
 ### Finding 3: A Fundamental Failure of Motivation
 
 To understand why a convenient network was not being used, we conducted an online survey of 128 citizens. The results clearly diagnose the core problem: a failure of motivation.
 
-Our survey found that over 90% of citizens believe recycling is important. However, good intentions are not translating into action. Over 60% of respondents had never used a G@C facility in the past year. When we dug deeper, we found that this was not due to a lack of awareness. Over 75% of these non-users knew where their local G@C was, and for most, it was less than a 15-minute walk away.
+Our survey found that over 90% of citizens believe recycling is important, no matter their age, which our regression model confirms.
+
+![Answer of Importance of Recycling](./importance_of_recycling_answer.jpg)
+
+![Importance of Recycling Age Linear Regression](./age_importance_regression.jpg)
+
+However, good intentions are not translating into action. Over 60% of respondents had never used a G@C facility in the past year. 
+
+![Usage of G@C in the past 12 months](./past_year_GC_usage.jpg)
+
+When we dug deeper, we found that this was not due to a lack of awareness. Over 75% of these non-users knew where their local G@C was, and for most, it was less than a 15-minute walk away.
+
+![Non-users knew where their local G@C was](./know_where_is_GC_answer.jpg)
+
+![Distance from the G@C](./distance_of_GC.jpg)
 
 When we asked non-users why they didn't participate, the top answers were simply "No recycling habit" and "Don't want to bother." They know recycling is important, they know where to go—they just don't go. This tells us that for many people, the effort required to collect, clean, and carry their recyclables to a G@C point is too high, and the current incentive is not strong enough to overcome this barrier.
 
+![Reason of not using G@C](./reason_of_not_using_GC.jpg)
+
 The incentive scheme is not only weak, but it is also severely underfunded. Our analysis of government documents revealed that the budget for GREEN$ reward gifts is only 2% of the program's total operating cost. The government is spending nearly half a billion dollars on operations but almost nothing on the rewards that are meant to motivate people.
 
-Furthermore, the GREEN$ scheme is failing to attract new people to recycling. Our survey showed that over 75% of G@C users were already recycling before the program started. It is primarily serving existing recyclers, not growing the base. Our regression analysis also found that participation is significantly higher among older residents, suggesting the current rewards of rice and oil are narrowly targeted and fail to motivate younger people.
+![G@C Total Operating Cost & GREEN$ Gift Procurement Cost](./operating_cost_reward_cost.jpg)
+
+Furthermore, the GREEN$ scheme is failing to attract new people to recycling. Our survey showed that over 75% of G@C users were already recycling before the program started. It is primarily serving existing recyclers, not growing the base. 
+
+![Having Recycling Habit before G@C](./recycling_before_GC.jpg)
+
+Even among users, less than 60% have registered the GREEN$ PIS.
+
+![Registered GREEN$](./registered_GREEN_PIS.jpg)
+
+Our regression analysis also found that participation is significantly higher among older residents, suggesting the current rewards of rice and oil are narrowly targeted and fail to motivate younger people.
+
+![Regression of Participation](./regerssion_age_participation.jpg)
 
 This problem is being made worse by a recent government decision to force a complete digitalization of the GREEN$ scheme, remove popular physical gifts, and limit redemptions. This move, made without consulting environmental groups, risks alienating the elderly, who are currently the most active users, and makes the weak incentive even weaker.
+
+And the education part is questionable, either. The EPD says all operators have met the educational event KPIs. But in our quiz, over 85% of them failed to correctly identify all the recyclable items.
+
+![Quiz accuracy 1](./quiz_rate.jpg)
+
+Over 60% of respondents didn't know bubble wrap is recyclable at G@C. So we are concerned about the actual effectiveness of the current education strategy.
+
+![Quiz accuracy details 2](./unaware_of_item.jpg)
+
+And the most important point is that, even though they knew what to recycle, over 50% still had never taken them to G@C in the past year.
+
+![Quiz accuracy details 3](./quiz_detail_3.jpg)
+
+So, we find that knowing is not enough. People can know what to do, but if there is no strong reason to act, that knowledge cannot transform into action.
+
 
 ### Finding 4: Public Perception vs. Data-Driven Reality
 
 To confirm our conclusion, we conducted an experiment in our survey. First, we asked people for their opinion of G@C's effectiveness, and the initial response was generally positive. Then, we showed them the real data: the high costs, the low recycling volume, and the tiny 1% city-wide impact.
 
 After seeing the data, their opinions flipped. Almost half of the respondents lowered their rating of the program. The "Very Unsatisfactory" rating shot up from 11% to 29%. This proves that while G@C may look good on the surface, a data-driven evaluation reveals it to be a high-cost program with low impact, suffering from a fundamental failure to motivate new participants.
+
+![Before and After 1](./before_after.jpg)
+
+![Before and After 2](./before_after_2.jpg)
 
 ---
 
@@ -144,6 +252,10 @@ Our project was not just about analyzing data; it was about engaging with the co
 We engaged with the government directly through our formal "Access to Information" request to the EPD. While the request was mostly denied, the interaction itself became a key research finding. It proved the administration's opacity and highlighted a bureaucratic disconnect, where the IT systems collect data that the policy bureau claims not to have.
 
 Our primary form of citizen engagement was our online survey. By distributing it to our families, friends, and neighbors, we collected 128 responses from the very people the G@C program is meant to serve. The survey was not just a data collection tool; it was an educational one, as we shared our key findings with the participants.
+
+![Survey demographics part 1](./survey_demographics_pt1.jpg)
+
+![Survey demographics part 2](./survey_demographics_pt2.jpg)
 
 To manage the complexity of our analysis, we integrated AI tools responsibly. We used "Vibe Coding" with Visual Studio Code and GitHub Copilot to help write the code for our statistical analysis, such as the Wilcoxon Signed-Rank Test and regression calculations. This allowed us to ensure our models were robust and minimized human error in complex calculations. However, we were careful to maintain human oversight at all times. We only fed the AI data that we had manually collected and verified, ensuring our conclusions were based on real, human-validated facts.
 
