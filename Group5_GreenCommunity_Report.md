@@ -19,7 +19,7 @@
 | 24205397 | XU Jingyi |
 | 24219169 | CHEUNG Kwun Ho |
 
-**December 4, 2025**
+**December 7, 2025**
 
 ---
 
@@ -40,12 +40,14 @@
       - [2.2.2. The Personal Data Contradiction](#222-the-personal-data-contradiction)
       - [2.2.3. The "Population Coverage" Black Box](#223-the-population-coverage-black-box)
   - [3. Data Analysis](#3-data-analysis)
-    - [3.1. Methodology and Data Sources -- Secondary Data](#31-methodology-and-data-sources----secondary-data)
-    - [3.2. Methodology and Data Sources -- Primary Data: Online Survey](#32-methodology-and-data-sources----primary-data-online-survey)
-    - [3.3. Finding 1: A High-Cost Program with Low City-Wide Impact](#33-finding-1-a-high-cost-program-with-low-city-wide-impact)
-    - [3.4. Finding 2: A Strategy of Diminishing Returns](#34-finding-2-a-strategy-of-diminishing-returns)
-    - [3.5. Finding 3: A Fundamental Failure of Motivation](#35-finding-3-a-fundamental-failure-of-motivation)
-    - [3.6. Finding 4: Public Perception vs. Data-Driven Reality](#36-finding-4-public-perception-vs-data-driven-reality)
+    - [3.1. Methodology and Data Sources](#31-methodology-and-data-sources)
+      - [3.1.1. Secondary Data](#311-secondary-data)
+      - [3.1.2. Primary Data: Online Survey](#312-primary-data-online-survey)
+    - [3.2. Quantitative Evaluation Findings](#32-quantitative-evaluation-findings)
+      - [3.2.1. Finding 1: A High-Cost Program with Low City-Wide Impact](#321-finding-1-a-high-cost-program-with-low-city-wide-impact)
+      - [3.2.2. Finding 2: A Strategy of Diminishing Returns](#322-finding-2-a-strategy-of-diminishing-returns)
+      - [3.2.3. Finding 3: A Fundamental Failure of Motivation](#323-finding-3-a-fundamental-failure-of-motivation)
+      - [3.2.4. Finding 4: Public Perception vs. Data-Driven Reality](#324-finding-4-public-perception-vs-data-driven-reality)
   - [4. Community Engagement](#4-community-engagement)
   - [5. Recommendations](#5-recommendations)
     - [5.1 Shift from Inefficient Blind Expansion to Strategic Utilization of Available Resources](#51-shift-from-inefficient-blind-expansion-to-strategic-utilization-of-available-resources)
@@ -117,7 +119,9 @@ The government frequently claims that the G@C network covers a high percentage o
 
 To evaluate the G@C program, we used a mixed-methods approach. We analyzed the "hard" numbers of costs and tonnage from government sources, and we explored the "soft" factors of public attitudes and behaviors through our own online survey.
 
-### 3.1. Methodology and Data Sources -- Secondary Data
+### 3.1. Methodology and Data Sources
+
+#### 3.1.1. Secondary Data
 Due to the data governance issues outlined in Section 2, our team constructed a dataset by manually synthesizing information from disparate government reports. The specific secondary data variables analyzed include:
 
 From data.gov.hk and C&SD:
@@ -135,7 +139,7 @@ From LegCo document “Replies to written questions raised by LegCo Members in e
 Calculated by with Excel formula:
 - G@C's percentage contribution to overall HK MSW recycled
 
-### 3.2. Methodology and Data Sources -- Primary Data: Online Survey
+#### 3.1.2. Primary Data: Online Survey
 To understand why the physical expansion is yielding diminishing returns, we needed to understand the user. Since the government claimed not to have demographic data, we conducted our own primary research to understand citizens' recycling habits, awareness and attitude towards G@C.
 
 Survey Design:
@@ -147,7 +151,9 @@ Survey Design:
 
 ![Survey demographics part 2](./survey_demographics_pt2.jpg)
 
-### 3.3. Finding 1: A High-Cost Program with Low City-Wide Impact
+### 3.2. Quantitative Evaluation Findings
+
+#### 3.2.1. Finding 1: A High-Cost Program with Low City-Wide Impact
 
 Our first step was to analyze the relationship between the government's investment and the program's actual impact. The data tells a story of explosive spending with minimal results.
 
@@ -165,7 +171,7 @@ However, this huge investment has failed to move the needle on Hong Kong's overa
 
 ![G@C Operating Cost per Volume](./GC_operating_cost_per_volume.jpg)
 
-### 3.4. Finding 2: A Strategy of Diminishing Returns
+#### 3.2.2. Finding 2: A Strategy of Diminishing Returns
 
 We then looked closer at the G@C program's own performance. Our analysis revealed a clear plateau effect, confirming a strategy of diminishing returns. In the program's early years, adding a new station brought a significant jump in recycling volume as it captured the "low-hanging fruit" of eager recyclers.
 
@@ -173,7 +179,7 @@ However, recent data shows this is no longer the case. In 2024, the EPD expanded
 
 ![Aggregate No. of G@C Collection Points & G@C Recycled Volume](./point_num_vs_volume.jpg)
 
-### 3.5. Finding 3: A Fundamental Failure of Motivation
+#### 3.2.3. Finding 3: A Fundamental Failure of Motivation
 
 To understand why a convenient network was not being used, we conducted an online survey of 128 citizens. The results clearly diagnose the core problem: a failure of motivation.
 
@@ -230,7 +236,7 @@ And the most important point is that, even though they knew what to recycle, ove
 So, we find that knowing is not enough. People can know what to do, but if there is no strong reason to act, that knowledge cannot transform into action.
 
 
-### 3.6. Finding 4: Public Perception vs. Data-Driven Reality
+#### 3.2.4. Finding 4: Public Perception vs. Data-Driven Reality
 
 To confirm our conclusion, we conducted an experiment in our survey. First, we asked people for their opinion of G@C's effectiveness, and the initial response was generally positive. Then, we showed them the real data: the high costs, the low recycling volume, and the tiny 1% city-wide impact.
 
